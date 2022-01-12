@@ -1,7 +1,7 @@
 import java.util.Scanner
 public class Main
-{
-	int x = 0;
+{public static void main(String[] args) {
+        int x = 0;
         int barisMap = 5, kolomMap = 3;
         char map [][] = new char[barisMap][kolomMap];
         boolean acuan = true;
@@ -73,3 +73,4 @@ public class Main
             System.out.println("Wrong command!");
         }
     }
+    
