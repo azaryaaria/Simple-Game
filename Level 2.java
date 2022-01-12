@@ -1,6 +1,7 @@
-import java.util.Scanner
+import java.util.Scanner;
 public class Main
-{public static void main(String[] args) {
+{
+	public static void main(String[] args) {
         int x = 0;
         int barisMap = 5, kolomMap = 3;
         char map [][] = new char[barisMap][kolomMap];
@@ -73,4 +74,5 @@ public class Main
             System.out.println("Wrong command!");
         }
     }
+}
     
