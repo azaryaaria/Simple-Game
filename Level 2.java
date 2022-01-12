@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class level2 {
+public class Main {
     public static void main(String[] args) {
         int x = 0;
         int barisMap = 5, kolomMap = 3;
