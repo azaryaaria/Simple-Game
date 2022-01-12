@@ -1,11 +1,15 @@
 import java.util.Scanner;
-public class Main
-{
-	public static void main(String[] args) {
+
+public class level2 {
+    public static void main(String[] args) {
         int x = 0;
         int barisMap = 5, kolomMap = 3;
         char map [][] = new char[barisMap][kolomMap];
         boolean acuan = true;
+        System.out.println("A = Karakter anda");
+        System.out.println("! = Garis Finish");
+        System.out.println("Atas = Bergerak ke atas");
+        System.out.println("Bawah  = Bergerak ke bawah");
         do {
             emptyMap(map, barisMap, kolomMap);
             defaultMap(map, barisMap, x);
